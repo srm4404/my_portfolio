@@ -1,0 +1,50 @@
+
+.head , .m_head, .b_head,
+.about_head, .c_head {
+    background-color: turquoise;
+    padding-left: 10px;
+}
+#body, .m_body, .a_body,
+.c_body {
+    background-color: tan;
+    padding-left: 10px;
+}
+.about, .b_details, .m_body2 {
+    background-color: hsla(306, 41%, 76%, 0.749);
+    padding-left: 10px;
+}
+.home {
+    background-color: rgb(95, 93, 93);
+}
+.home > a {
+    padding: 10px;
+}
+
+/* Movie Ranking */
+.m_body > img {
+    width: 180px;
+    height: 25%;
+    border-radius: 10%;
+    float: left;
+    padding: 10px;
+}
+.m_body2 {
+    position: relative;
+    height: 250px;
+}
+.m_body2 > img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40px;
+    left: 25%;
+    border-radius: 5%;
+}
+        /*Floating in movie ranking */
+.m_float {
+    clear: left;
+}
+.m_btitle {
+    font-size: large;
+}
+
